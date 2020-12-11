@@ -82,6 +82,14 @@ body {
     background-color: #fff;
 }
 
+.intro_five {
+    width: 100%;
+    padding-top: 123px;
+    padding-bottom: 135px;
+
+    background-color: #ffdd99;
+}
+
 /* Main_title*/
 
 .main_title {
@@ -303,21 +311,13 @@ body {
     
 }
 
-.radial-progress {
-    @circle-background: #d6dadc;
-    @circle-color: #97a71d;
-    background-color: @circle-background;
-    .circle .fill {
-      background-color: @circle-color;
-    }
-  }
+.graphics {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
 
-  .radial-progress {
-    @circle-size: 120px;
-    width: @circle-size;
-    height: @circle-size;
-    .circle .fill {
-      width: @circle-size;
-      height: @circle-size;
-    }
-  }
+    margin-left: 69px;
+    margin-right: 69px;
+    margin-top: 91px;
+}
