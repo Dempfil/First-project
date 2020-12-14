@@ -413,3 +413,58 @@ body {
 .circle_two {
     transform: rotate(130deg);
 }
+
+.web {
+    margin-top: 201px;
+    margin-left: 38px;
+
+    color: #3c4761;
+}
+
+.circle_75 {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+    border: 15px solid #d74680;
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip: rect(0px, 191px, 192px, 90px);
+}
+
+.circle_three {
+    transform: rotate(90deg);
+}
+
+.circle_70 {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+    border: 15px solid #15c7a8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip: rect(0px, 191px, 192px, 90px);
+}
+
+.circle_four {
+    transform: rotate(60deg);
+}
+
+.circle_85 {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+    border: 15px solid #eb7d4b;
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip: rect(0px, 191px, 192px, 90px);
+}
+
+.circle_five {
+    transform: rotate(104deg);
+}
