@@ -468,3 +468,55 @@ body {
 .circle_five {
     transform: rotate(104deg);
 }
+/* picture info*/
+
+.picture_inner {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+   
+    text-align: center;
+   
+    margin-top: 85px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.name_l {
+    color: #534f46;
+    
+    font-size: 18px;
+    font-weight: 600;
+    
+   
+}
+
+.button_l {    
+    padding: 29px 90px 29px 81px;
+    background-color: #17c2a4;
+    color: #fff;
+    text-decoration: none;
+    
+        
+    border-radius: 5px;
+    box-shadow: 0 -5px 8px #14a58c inset;
+    
+    margin-top: 90px;
+}
+
+/* container six*/
+
+.intro_six {
+    width: 100%;
+    padding-top: 123px;
+    padding-bottom: 135px;
+    background-color: #d74680;
+}
+
+.line_six {
+    background-color: #b73c6d;
+    width: 87px;
+    height: 4px;
+    margin: 0 auto;
+    border: none;
+}
