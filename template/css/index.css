@@ -1,0 +1,488 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 1280px;
+    margin: 0px auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    
+    color: #445161;
+    
+    text-align: center;
+    
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    }
+
+
+/* Block 1 */
+.gray {
+    display: flex;
+    
+    color: #fff;
+    background-color: #445162;
+   
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 33px;
+    margin-right: -12px;
+}
+
+.gray_1 {
+    background-color: #445161;
+    color: #445161;
+    
+    width: 430px;
+    height: 250px;
+    margin: 50px 50px 0px 0px;
+}
+
+.list li {
+    position: relative;
+    
+    font-size: 20px;
+    
+    list-style-type: none;
+    line-height: 30px;
+    
+    padding-left: 40px;
+}
+
+.list li:before {
+    content: '';
+    background: url(../images/check\ icon.png) 0 0 no-repeat;
+    width: 30px;
+    height: 20px;
+
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+
+h1 {    
+    font-size: 60px;
+    font-weight: 500;
+}
+
+/* Block 2 */
+
+.about_your_product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    font-weight: 400;
+    
+    color: #445161;
+    
+    margin-bottom: 40px;
+    padding-top: 0px;
+    
+    text-align: left;
+}
+
+.container p {
+    color: #445161;
+    
+    font-size: 16px;
+    
+    width: 560px;
+    
+    line-height: 25px;
+}
+
+.white {
+    margin-right: 58px;
+    margin-top: 37px;
+    
+    height: 215px;
+    width: 470px;
+    
+    background-color: #fff;
+}
+
+ul {
+    padding-inline-start: 0px;
+    
+}
+
+.container {
+    padding-left: 51px;
+}
+/* Block 3*/
+
+
+.dignity {
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+
+.container_plus {
+    display: flex;
+}
+
+.plus_one {
+    width: 600px;
+    
+    list-style-type: none;
+    line-height: 25px;
+
+    margin-left: 50px;
+}
+
+.plus_two {
+    width: 600px;
+    
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.plus_one li {
+    position: relative;
+    
+    margin: 0px 0px 40px 50px;
+}
+
+.plus_one li:before {
+    content: '';
+    background: url(../images/plus\ icon.png) 0 0 no-repeat;
+    
+    width: 35px;
+    height: 35px;
+    
+    position: absolute;
+    
+    top: 8px;
+    left: -47px;
+}
+
+.plus_two li {
+    position: relative;
+    
+    margin: 0px 20px 40px 50px;
+}
+
+.plus_two li:before {
+    content: '';
+    background: url(../images/plus\ icon.png) 0 0 no-repeat;
+    
+    width: 35px;
+    height: 35px;
+    
+    position: absolute;
+    top: 8px;
+    left: -47px;
+}
+
+/* Block 4*/
+
+.description_for_the{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.description {
+    display: flex;
+    
+    width: 590px;
+    height: 150px;
+
+    margin-top: 40px;
+}
+
+.square {
+    width: 840px;
+    height: 130px;
+
+    background-color: #445161;
+    color: #445161;
+
+    margin-right: 17px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+
+    color: #445161;
+
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+/* Block 5 */
+
+.reviews {
+    background-color: #f5f5f5;
+}
+
+.main_discribe{
+    display: flex;
+
+}
+
+.circle {
+    width: 74px;
+    height: 74px;
+
+    border-radius: 50%;
+
+    background-color: #445161;
+    color: #445161;
+
+    text-align: center;
+
+    margin-left: 50px;
+}
+
+.discribe {
+    width: 470px;
+    height: 125px;
+
+    background-color: #ebebeb;
+
+    font-style: italic;
+    font-weight: 100;
+
+    position: relative;
+
+    margin-left: 25px;
+
+    padding: 10px;
+}
+
+.discribe::after{
+    content: '';
+    
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    
+    border: 10px solid transparent;
+    border-right: 10px solid #ebebeb;
+
+}
+
+.sign {
+    font-style: normal;
+    color: #989898;
+}
+
+.main_discribe_one {
+    display: flex;
+
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+/* Block 6 */
+
+.main_money {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+    padding-left: 100px;
+
+    align-items: flex-end;
+}
+
+.tarif {
+    width: 300px;
+    height: 100%;
+
+    color: #fff;
+    background-color: #445162;
+
+    border-radius: 5px;
+}
+
+.tarif h2 {
+    text-align: center;
+    
+    margin: 0px ;
+    padding: 20px 0px 20px 0px;
+
+    color: #fff;
+}
+
+.tarif li {
+    margin-bottom: 10px;
+}
+
+ol {
+    color: #fff;
+}
+
+.money {
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 400;
+
+    background-color: #fff;
+    color: #445162;
+
+    margin: 0px 2px 0px 2px;
+}
+
+.button {
+    width: 260px;
+    height: 40px;
+
+    margin: 0px 20px 20px 20px;
+    
+    color: #445161;
+    background-color: white;
+    
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Block 7 */
+
+.fname_inner {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.fname {
+    display: flex;
+    justify-content: center;
+}
+
+.fname .button {
+    margin-top: 20px;
+
+    width: 140px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.contacts {
+    background-color: #445162;
+}
+
+.contacts h2 {
+    color: #fff;
+    padding-top: 55px;
+}
+
+.finput {
+    width: 500px;
+    height: 40px;
+
+    margin-bottom: 10px;
+
+    border: 1px;
+    border-radius: 7px;
+
+    padding: 15px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+.message_inner {
+    width: 100%;
+    height: 200px;
+    color: #445161;
+    border: 1px;
+    border-radius: 7px;
+    resize: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 15px;
+    outline: none;
+}
+
+.icons {
+    list-style-type: none;
+
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.network_inner {
+    text-decoration: none;
+
+    color: #fff;
+
+    font-size: 16px;
+}
+
+.networks ul {
+    color: #fff;
+
+    margin-bottom: 40px;
+}
+
+.networks {
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.popular {
+    text-decoration: none;
+    font-size: 25px;
+
+    color: #445162;
+
+    background-color: #fff;
+
+    border-radius: 50%;
+
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+
+    margin-right: 15px;
+}
+
+.popular_network {
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: center;
+
+}
+
+.copyright_inner {
+    background-color: #fff;
+    color: #445161;
+
+    width: 100%;
+    height: 25px;
+
+    text-align: center;
+
+    padding-top: 15px;
+}
+
+.copyright {
+    background-color: #445162;
+
+    width: 100%;
+    height: 42px;
+}
